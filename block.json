@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "td-test-block/test-block",
+	"version": "0.1.0",
+	"title": "Test Block",
+	"category": "design",
+	"icon": "smiley",
+	"description": "Following developer.wordpress.org block tutorial",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "div",
+			"default": ""
+		}
+	},
+	"textdomain": "test-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
